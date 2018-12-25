@@ -19,8 +19,6 @@ import org.springframework.util.StringUtils;
 @Configuration
 @EnableWebSecurity
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
-    private final static Logger log = LoggerFactory.getLogger(WebSecurityConfig.class);
-
     private String contextPath;
 
     @Autowired
